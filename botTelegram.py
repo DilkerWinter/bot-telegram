@@ -13,7 +13,7 @@ def ajuda(message):
 /adicionar | Adiciona um item a lista
 /remover | Remove um item da lista
 /listar | Lista todos os items da lista
-/github'| Mostrar meu GitHub""")
+/github | Mostrar meu GitHub""")
 
 @bot.message_handler(commands=['adicionar'])
 def adicionar(mensagem):
