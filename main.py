@@ -1,7 +1,7 @@
 import telebot
+import keys
 
-apiKey = "6314554818:AAE6qkHC0JoUvGh9hOUSFedfbtnFWcbpzCc"
-
+apiKey = keys.apiKey
 bot = telebot.TeleBot(apiKey)
 
 @bot.message_handler(commands=['ajuda'])
